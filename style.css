@@ -1,0 +1,132 @@
+@import url('https//fonts.gooogleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    background: #000;
+    
+   
+}
+div#face img{
+    position: absolute;
+    left: 10px;
+    top: 70%;
+    width: 300px;
+    height: 300px;
+    background: cover;
+}
+div#text {
+    position: absolute;
+    left: 280px;
+    top: 90%;
+    text-shadow: 1px 2px 3px #fff;
+    width: 700px;
+    height: 200px;
+    background: cover;
+}
+img.git{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 15px;
+    top: -120%;
+}
+div#link a{
+    font-size: 15px;
+    position: absolute;
+    text-decoration: none;
+    color: #5C6BC0;
+    width: 100px;
+    height: 60px;
+    left: 1220px;
+    top: 100%;
+}
+div#link a span{
+    margin-left: 25px;
+}
+div#link img:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+img{
+    width: 500px;
+    height: 500px
+}
+#freedon{
+    background-color: #ff0;
+    width: 200px;
+    height: 20px;
+}
+.container{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    background: url(../image/background.jpg);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50% 50% rgba(0,0,0,0.5),
+                0 0 0 100px rgba(0,0,0,.1)
+}
+.container h2{
+    text-align: center;
+    font-size: 10em;
+    color: #fff;
+    line-height: 0.7em;
+    margin-top: -80px;
+}
+.container h2 span{
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 0.2em;
+}
+.countdown{
+    display: flex;
+    margin-top: 50px;
+}
+.countdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background: #333;
+    line-height: 100px;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.countdown div:before{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background: #ff0;
+    color: #333;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+.countdown #day:before{
+    content: 'Dias';
+}
+.countdown #hour:before{
+    content: 'Horas';
+}
+.countdown #minute:before{
+    content: 'Minutos';
+}
+.countdown #second:before{
+    content: 'Segundos';
+}
